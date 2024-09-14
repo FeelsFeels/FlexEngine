@@ -2,7 +2,7 @@
 
 #include "Components/rendering.h"
 
-namespace MicroChess
+namespace ChronoShift
 {
 
   void RendererSprite2D()

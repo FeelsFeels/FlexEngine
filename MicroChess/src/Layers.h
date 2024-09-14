@@ -6,3 +6,4 @@
 #include "Layers/base.h"
 #include "Layers/menu.h"
 #include "Layers/board.h"
+#include "Layers/battle.h"

@@ -148,8 +148,10 @@
     <ClInclude Include="src\Components\game.h" />
     <ClInclude Include="src\Components\physics.h" />
     <ClInclude Include="src\Components\rendering.h" />
+    <ClInclude Include="src\Components\battlecomponents.h" />
     <ClInclude Include="src\Layers.h" />
     <ClInclude Include="src\Layers\base.h" />
+    <ClInclude Include="src\Layers\battle.h" />
     <ClInclude Include="src\Layers\board.h" />
     <ClInclude Include="src\Layers\menu.h" />
     <ClInclude Include="src\Physics\box2d.h" />
@@ -161,7 +163,9 @@
     <ClCompile Include="src\Components\game.cpp" />
     <ClCompile Include="src\Components\physics.cpp" />
     <ClCompile Include="src\Components\rendering.cpp" />
+    <ClCompile Include="src\Components\battlecomponents.cpp" />
     <ClCompile Include="src\Layers\base.cpp" />
+    <ClCompile Include="src\Layers\battle.cpp" />
     <ClCompile Include="src\Layers\board.cpp" />
     <ClCompile Include="src\Layers\menu.cpp" />
     <ClCompile Include="src\main.cpp" />

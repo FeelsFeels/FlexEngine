@@ -5,7 +5,7 @@
 
 #include "Components/rendering.h"
 
-namespace MicroChess
+namespace ChronoShift
 {
 
   void BaseLayer::OnAttach()
@@ -22,7 +22,8 @@ namespace MicroChess
     window->SetIcon(FLX_ASSET_GET(Asset::Texture, R"(\images\flexengine\flexengine_icon_white.png)"));
 
     //window->PushLayer(std::make_shared<MenuLayer>());
-    window->PushLayer(std::make_shared<BoardLayer>());
+    //window->PushLayer(std::make_shared<BoardLayer>());
+    window->PushLayer(std::make_shared<ChronoShift::BattleLayer>());
 
     // Renderer Setup
 
